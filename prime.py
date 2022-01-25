@@ -3,7 +3,7 @@ import math
 # For checking if a number is Prime or not.
 def is_prime(a):
     dec = 1
-    if a == 1:
+    if a <= 1:
         print("Not Prime")
     elif a == 2:
         print("Prime")
