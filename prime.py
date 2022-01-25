@@ -38,7 +38,7 @@ def ls_prime(b):
     print(prime_list)
     return c
 
-print("1 Check if number is Prime or not?")
+print("1 Check whether a number is Prime or not.")
 print("2 Generate a list of Prime number.")
 choice = input("Enter your choice: ")
 
