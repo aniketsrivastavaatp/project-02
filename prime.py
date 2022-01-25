@@ -48,13 +48,13 @@ try:
         num = input("Enter the number: ")
         try:
             num = int(num)
+            if choice == 1:
+                is_prime(num)
+            elif choice == 2:
+                 c = ls_prime(num)
+                 print("Total prime numbers in range:", c)
         except:
             print("Enter a positive Integer!")
-        if choice == 1:
-            is_prime(num)
-        elif choice == 2:
-            c = ls_prime(num)
-            print("Total prime numbers in range:", c)
     else:
         print("Wrong Choice!")
 except:
