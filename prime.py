@@ -1,5 +1,6 @@
 import math
 
+# For checking if a number is Prime or not.
 def is_prime(a):
     dec = 1
     if a == 1:
@@ -17,7 +18,9 @@ def is_prime(a):
                 break
         if dec == 1:
             print("Prime")
-
+            
+# For making a list of all prime number withing the range (1 to num)
+# num is a number given by a user.
 def ls_prime(b):
     prime_list = list()
     prime = [True for i in range(b+1)]
